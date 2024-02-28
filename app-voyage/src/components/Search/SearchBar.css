@@ -1,0 +1,24 @@
+.Body {
+  position: relative;
+  width: 100vw; /* Utilise toute la largeur de la vue */
+  height: 100vh; /* Utilise toute la hauteur de la vue */
+  right: 32vh;
+  background: url("/Background.jpg") no-repeat center center fixed;
+  background-size: cover; /* S'assure que l'image couvre tout l'espace disponible */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centre le contenu verticalement */
+}
+
+.Titre {
+  /* Assurez-vous que la casse correspond à celle dans votre JSX */
+  color: white; /* Assurez-vous que la couleur contraste avec votre arrière-plan */
+  font-size: 4rem; /* Ajustez la taille selon vos besoins */
+  text-align: left; /* Centre le texte horizontalement */
+  right: 15vh;
+}
+
+.content {
+  margin-right: 90vh;
+  margin-bottom: 50vh;
+}

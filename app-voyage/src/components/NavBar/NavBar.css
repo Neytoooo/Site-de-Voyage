@@ -6,9 +6,9 @@
   display: flex; /* Utiliser flexbox pour aligner les éléments */
   justify-content: space-between; /* Répartir l'espace entre le logo et les boutons */
   align-items: center; /* Centrer les éléments verticalement */
-  background-color: #000; /* Couleur de fond, à changer selon votre design */
-  z-index: 1000; /* S'assure que la navbar reste au-dessus des autres éléments */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Optionnel: ajoute une ombre pour un effet de profondeur */
+  background-color: #000; 
+  z-index: 1000; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 
 }
 
 .logo-container {

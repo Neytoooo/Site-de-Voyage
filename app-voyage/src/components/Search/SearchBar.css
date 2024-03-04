@@ -1,24 +1,36 @@
 .Body {
-  position: relative;
-  width: 100vw; /* Utilise toute la largeur de la vue */
-  height: 100vh; /* Utilise toute la hauteur de la vue */
-  right: 32vh;
-  background: url("/Background.jpg") no-repeat center center fixed;
-  background-size: cover; /* S'assure que l'image couvre tout l'espace disponible */
+  background: url("/Background.jpg") no-repeat ;
+  width: 100vw; 
+  height: 100vh;
+  margin-right: 100;
   display: flex;
   justify-content: center;
-  align-items: center; /* Centre le contenu verticalement */
+  align-items: center;
+
 }
 
-.Titre {
-  /* Assurez-vous que la casse correspond à celle dans votre JSX */
-  color: white; /* Assurez-vous que la couleur contraste avec votre arrière-plan */
-  font-size: 4rem; /* Ajustez la taille selon vos besoins */
-  text-align: left; /* Centre le texte horizontalement */
-  right: 15vh;
+
+.search-form input[type="text"],
+.search-form input[type="date"],
+.search-form select {
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: calc(100% - 22px); /* Compense le padding et border */
 }
 
-.content {
-  margin-right: 90vh;
-  margin-bottom: 50vh;
+.search-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-form button:hover {
+  background-color: #0056b3;
 }

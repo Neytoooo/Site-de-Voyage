@@ -17,7 +17,6 @@ const SearchBar = () => {
             <option value="2">2 adultes</option>
             <option value="3">2 adultes, 1 enfant</option>
             <option value="4">2 adultes, 2 enfants</option>
-            {/* Ajoutez d'autres options ici si nécessaire */}
           </select>
           <button>Rechercher</button>
         </div>
